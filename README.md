@@ -1,4 +1,4 @@
-# ShadowTrace
+# Nexora
 
 Placeholder for `README.md`.
 
