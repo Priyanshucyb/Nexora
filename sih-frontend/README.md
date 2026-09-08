@@ -1,8 +1,8 @@
-# SIH Frontend — Day 1
+# SIH Frontend 
 
 React + Vite frontend for the Legal Metrology packaged-commodity inspection project.
 
-## Day 1 coverage
+## Coverage
 
 - React/Vite application
 - Routes/pages: Home, Scan, Result
