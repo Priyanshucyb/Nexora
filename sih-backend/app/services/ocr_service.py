@@ -1,5 +1,15 @@
-# ShadowTrace
+def extract_text(
+    file_bytes: bytes,
+    content_type: str,
+) -> str:
 
-Placeholder for `sih-backend/app/services/ocr_service.py`.
+    # Temporary mock.
+    # Replace this with the team's OCR module.
 
-This file is part of the final SIH repository structure. Team members can replace this placeholder with the implementation.
+    return """
+    ABC Foods Pvt Ltd
+    Net Quantity: 500 g
+    MRP: Rs. 120
+    Manufactured: 08/2026
+    Consumer Care: 1800-000-000
+    """

@@ -1,5 +1,5 @@
-# ShadowTrace
-
-Placeholder for `sih-backend/.gitignore`.
-
-This file is part of the final SIH repository structure. Team members can replace this placeholder with the implementation.
+.venv/
+__pycache__/
+*.py[cod]
+.env
+app_backup/

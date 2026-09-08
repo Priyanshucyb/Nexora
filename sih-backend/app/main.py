@@ -1,5 +1,22 @@
-# ShadowTrace
+from fastapi import FastAPI
 
-Placeholder for `sih-backend/app/main.py`.
+from app.routes.scan import router as scan_router
+from app.routes.report import router as report_router
 
-This file is part of the final SIH repository structure. Team members can replace this placeholder with the implementation.
+
+app = FastAPI(
+    title="Legal Metrology Compliance Backend",
+    version="0.1.0",
+)
+
+
+app.include_router(scan_router)
+app.include_router(report_router)
+
+
+@app.get("/health")
+def health():
+    return {
+        "status": "ok",
+        "service": "legal-metrology-backend"
+    }
